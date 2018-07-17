@@ -18,7 +18,6 @@
 <br>
 
   <h2>已完成</h2>
-<ul><li>asdasd</li></ul>
      <li v-for="(item,key) in list" v-if="item.checked">
       <input type="checkbox" v-model="item.checked"> {{item.title}}<button v-on:click="remove(key)">--删除</button>
      </li>
